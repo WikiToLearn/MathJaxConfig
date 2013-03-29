@@ -71,4 +71,4 @@ MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js", "AMSsymbols.js"] }
 });
 
-MathJax.Ajax.loadComplete("[MathJax]/MathJax-config.js");
+MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");

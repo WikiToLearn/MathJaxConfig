@@ -1,0 +1,14 @@
+diff --git a/modules/ext.math.mathjax.enabler.js b/modules/ext.math.mathjax.enabler.js
+index e1343a8..5d21166 100644
+--- a/modules/ext.math.mathjax.enabler.js
++++ b/modules/ext.math.mathjax.enabler.js
+@@ -14,7 +14,7 @@
+   mathJax.Config = function () {
+     MathJax.Hub.Config({
+       root: mw.config.get('wgExtensionAssetsPath') + '/Math/modules/MathJax',
+-      config: ['TeX-AMS-texvc_HTML.js'],
++      config: ['TeX-AMS-texvc_HTML.js', 'local/local.js'],
+       'v1.0-compatible': false,
+       styles: {
+         '.mtext': {
+
