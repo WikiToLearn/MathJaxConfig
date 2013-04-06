@@ -5,7 +5,7 @@
      MathJax.Hub.Config({
        root: mw.config.get('wgExtensionAssetsPath') + '/Math/modules/MathJax',
 -      config: ['TeX-AMS-texvc_HTML.js'],
-+      config: ['TeX-AMS-texvc_HTML.js', 'local/local.js'],
++      config: ['TeX-AMS_HTML.js', 'local/local.js'],
        'v1.0-compatible': false,
        styles: {
          '.mtext': {
