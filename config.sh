@@ -1,2 +1,2 @@
 #!/bin/bash
-git apply *.patch
+patch -p0  < add-custom-config.patch
