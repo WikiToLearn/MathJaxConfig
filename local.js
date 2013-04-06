@@ -59,16 +59,16 @@ TEX.Macro("e", '{\\mathrm{e}}');
 
 MathJax.Hub.Config({
   tex2jax: {
-    inlineMath: [['$in','$in'], ['<math>', '</math>']],
+    inlineMath: [['$','$'], ['<math>', '</math>']],
     displayMath: [['$$','$$']],
     processEscapes: true
   },
-  displayAlign: "center",
 
-});
-
-MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js", "AMSsymbols.js"] }
+
+
 });
+
+
 
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");
