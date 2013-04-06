@@ -58,17 +58,18 @@ TEX.Macro("e", '{\\mathrm{e}}');
 });
 
 MathJax.Hub.Config({
+  
   tex2jax: {
     inlineMath: [['$','$'], ['<math>', '</math>']],
     displayMath: [['$$','$$']],
     processEscapes: true
   },
 
+  displayAlign: "center",
+ 
   TeX: { equationNumbers: { autoNumber: "AMS" }, extensions: ["AMSmath.js", "AMSsymbols.js"] }
 
-
 });
-
 
 
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");
