@@ -1,7 +1,5 @@
-diff --git a/modules/ext.math.mathjax.enabler.js b/modules/ext.math.mathjax.enabler.js
-index e1343a8..5d21166 100644
---- a/modules/ext.math.mathjax.enabler.js
-+++ b/modules/ext.math.mathjax.enabler.js
+--- ../../../../modules/ext.math.mathjax.enabler.js
++++ ../../../modules/ext.math.mathjax.enabler.js
 @@ -14,7 +14,7 @@
    mathJax.Config = function () {
      MathJax.Hub.Config({
