@@ -1,6 +1,6 @@
 --- ../../../../modules/ext.math.mathjax.enabler.js
 +++ ../../../modules/ext.math.mathjax.enabler.js
-@@ -14,7 +14,7 @@
+@@ -16,7 +16,7 @@
    mathJax.Config = function () {
      MathJax.Hub.Config({
        root: mw.config.get('wgExtensionAssetsPath') + '/Math/modules/MathJax',
