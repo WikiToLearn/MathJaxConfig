@@ -1,11 +1,11 @@
---- a/../../../modules/ext.math.mathjax.enabler.js
-+++ b/../../../modules/ext.math.mathjax.enabler.js
+--- a/../../../../modules/ext.math.mathjax.enabler.js
++++ b/../../../../modules/ext.math.mathjax.enabler.js
 @@ -13,7 +13,7 @@
- 
+
    mathJax.config = $.extend( true, {
      root: mw.config.get('wgExtensionAssetsPath') + '/Math/modules/MathJax',
--    config: ['TeX-AMS_HTML.js', 'local/local.js'],
-+    config: ['TeX-AMS-texvc_HTML.js'],
++    config: ['TeX-AMS_HTML.js', 'local/local.js'],
+-    config: ['TeX-AMS-texvc_HTML.js'],
      'v1.0-compatible': false,
      styles: {
        '.mtext': {
