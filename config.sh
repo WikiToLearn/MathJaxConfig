@@ -1,2 +1,2 @@
 #!/bin/bash
-patch -p0  < add-custom-config.patch
+patch -p1 < add-custom-config.patch
